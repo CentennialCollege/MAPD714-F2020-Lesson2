@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E959DDBF251ACF9F0085DBCE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959DDBE251ACF9F0085DBCE /* Person.swift */; };
+		E959DDC1251AD1BF0085DBCE /* Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959DDC0251AD1BF0085DBCE /* Vector2D.swift */; };
 		E97FA964251AB60C00E8005C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97FA963251AB60C00E8005C /* AppDelegate.swift */; };
 		E97FA966251AB60C00E8005C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97FA965251AB60C00E8005C /* SceneDelegate.swift */; };
 		E97FA968251AB60C00E8005C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97FA967251AB60C00E8005C /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E959DDBE251ACF9F0085DBCE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E959DDC0251AD1BF0085DBCE /* Vector2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2D.swift; sourceTree = "<group>"; };
 		E97FA960251AB60C00E8005C /* MAPD714-F2020-Lesson2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2020-Lesson2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97FA963251AB60C00E8005C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97FA965251AB60C00E8005C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				E97FA96C251AB60F00E8005C /* Assets.xcassets */,
 				E97FA96E251AB60F00E8005C /* LaunchScreen.storyboard */,
 				E97FA971251AB60F00E8005C /* Info.plist */,
+				E959DDBE251ACF9F0085DBCE /* Person.swift */,
+				E959DDC0251AD1BF0085DBCE /* Vector2D.swift */,
 			);
 			path = "MAPD714-F2020-Lesson2";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				E97FA968251AB60C00E8005C /* ViewController.swift in Sources */,
 				E97FA964251AB60C00E8005C /* AppDelegate.swift in Sources */,
+				E959DDBF251ACF9F0085DBCE /* Person.swift in Sources */,
 				E97FA966251AB60C00E8005C /* SceneDelegate.swift in Sources */,
+				E959DDC1251AD1BF0085DBCE /* Vector2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UL9C95HRCP;
 				INFOPLIST_FILE = "MAPD714-F2020-Lesson2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2020-Lesson2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UL9C95HRCP;
 				INFOPLIST_FILE = "MAPD714-F2020-Lesson2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-F2020-Lesson2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
